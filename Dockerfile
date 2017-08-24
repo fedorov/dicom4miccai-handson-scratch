@@ -8,7 +8,7 @@ MAINTAINER https://github.com/qiicr
 ARG BUILD_DATE
 ARG GIT_REF
 
-LABEL dicom4miccai-handson-notebooks
+#LABEL dicom4miccai-handson-notebooks
 
 USER root
 ADD . /root/pyradiomics
