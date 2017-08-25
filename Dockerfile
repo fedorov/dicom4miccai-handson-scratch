@@ -4,7 +4,7 @@ MAINTAINER https://github.com/qiicr
 
 USER root
 
-ADD . /root/repo
+ADD . /repo
 
 USER $NB_USER
 
