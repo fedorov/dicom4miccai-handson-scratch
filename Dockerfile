@@ -7,7 +7,7 @@ USER root
 USER $NB_USER
 
 RUN mkdir -p ${HOME}/data
-RUN cd ${HOME}/data && wget https://github.com/fedorov/dicom4miccai-handson/releases/download/QIN-HEADNECK_tables/QIN-HEADNECK-tables-no_clinical.zip && unzip QIN-HEADNECK-tables-no_clinical.zip
+RUN cd ${HOME}/data && wget https://github.com/fedorov/dicom4miccai-handson/releases/download/QIN-HEADNECK_tables/QIN-HEADNECK-tables.zip && unzip QIN-HEADNECK-tables.zip
 
 #RUN mkdir /src
 #RUN ln -s /data /home/jovyan/work/src
